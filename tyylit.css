@@ -23,16 +23,16 @@ p {
 }
 nav a {
     font-family: "Lucida Console", monospace;
-    color: #a3b3ca;
-    background-color: #3b5786;
+    color: #3b5786;
+    background-color: #a3b3ca;
     text-align: center;
     display: inline-block;
     padding: 15px 25px;
 }
 nav a:hover {
     font-family: "Lucida Console", monospace;
-    color: #3b5786;
-    background-color: #a3b3ca;
+    color: #a3b3ca;
+    background-color: #3b5786;
     text-align: center;
     display: inline-block;
     padding: 15px 25px;
