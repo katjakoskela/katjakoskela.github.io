@@ -26,7 +26,7 @@ nav a {
     color: #a3b3ca;
     background-color: #3b5786;
     text-align: center;
-    display: block;
+    display: inline-block;
     padding: 15px 25px;
 }
 nav a:hover {
@@ -34,7 +34,7 @@ nav a:hover {
     color: #3b5786;
     background-color: #a3b3ca;
     text-align: center;
-    display: block;
+    display: inline-block;
     padding: 15px 25px;
 }
 #valittu {
@@ -42,6 +42,6 @@ nav a:hover {
     color: #3b5786;
     background-color: #fff1e0;
     text-align: center;
-    display: block;
+    display: inline-block;
     padding: 15px 25px;
 }
