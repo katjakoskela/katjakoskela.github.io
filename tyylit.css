@@ -22,11 +22,11 @@ p {
     margin-right: 30px
 }
 nav a {
-
+    font-family: "Lucida Console", monospace;
 }
 nav a:hover {
-
+    font-family: "Lucida Console", monospace;
 }
 #valittu {
-
+    font-family: "Lucida Console", monospace;
 }
