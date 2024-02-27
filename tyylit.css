@@ -23,10 +23,22 @@ p {
 }
 nav a {
     font-family: "Lucida Console", monospace;
+    color: #a3b3ca;
+    background-color: #3b5786;
+    text-align: center;
+    display: block;
 }
 nav a:hover {
     font-family: "Lucida Console", monospace;
+    color: #3b5786;
+    background-color: #a3b3ca;
+    text-align: center;
+    display: block;
 }
 #valittu {
     font-family: "Lucida Console", monospace;
+    color: #3b5786;
+    background-color: #fff1e0;
+    text-align: center;
+    display: block;
 }
