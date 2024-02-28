@@ -51,25 +51,27 @@ nav a:hover {
     padding: 15px 25px;
 }
 /*Hinnasto listana*/
-#customers {
+#hinnat {
     font-family: "Lucida Console", monospace;
     border-collapse: collapse;
     width: 80%;
   }
   
-  #customers td, #customers th {
-    border: 1px solid #ddd;
+  #hinnat td, #hinnat th {
+    border: 1px solid #3b5786;
     padding: 8px;
   }
-  
-  #customers th {
+  #hinnat tr:hover {
+    background-color: #a3b3ca;
+  }
+  #hinnat th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #a3b3ca;
-    color: #3b5786;
+    background-color: #3b5786;
+    color: #a3b3ca;
   }
-  #customers td {
+  #hinnat td {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
