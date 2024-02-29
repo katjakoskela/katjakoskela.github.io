@@ -52,7 +52,7 @@ nav a:hover {
     border: 1px solid #3b5786;
     padding: 8px;
   }
-  #hinnat tr:hover {
+  #hinnat td:hover {
     background-color: #a3b3ca;
   }
   #hinnat th {
