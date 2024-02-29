@@ -50,7 +50,7 @@ nav a:hover {
     display: inline-block;
     padding: 15px 25px;
 }
-.button { /*cta*/
+#toimintakehote { /*cta*/
   background-color: #fff1e0;
   color: #3b5786;
   border: 2px solid #3b5786; /* Green */
@@ -58,7 +58,7 @@ nav a:hover {
   font-family: "Lucida Console", monospace;
   text-align: center;
 }
-.button:hover {
+a:hover {
   background-color: #fff1e0;
   color: #a3b3ca;
   border: 2px solid #3b5786; /* Green */
