@@ -100,5 +100,10 @@ nav a:hover {
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-bottom: '0';
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  a {
+    text-decoration: none;
   }
