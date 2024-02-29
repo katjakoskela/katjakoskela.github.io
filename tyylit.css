@@ -27,6 +27,16 @@ p {
     margin-left: 30px;
     margin-right: 30px
 } 
+.toimintakehote {
+    font-family: "Lucida Console", monospace;
+    text-decoration: none;
+    color: #3b5786;
+    background-color: #a3b3ca;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: auto;
+}
 /*Navigaatioplakin/-valitsimen tyyliä*/
 nav a {
     font-family: "Lucida Console", monospace;
