@@ -41,6 +41,15 @@ nav a:hover {
     display: inline-block;
     padding: 15px 25px;
 }
+#valittu {
+  font-family: "Lucida console", monospace;
+  text-decoration: none;
+  color: #3b5786;
+  background-color: #fff1e0;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+}
 /*Hinnasto listana*/
 #hinnat {
     font-family: "Lucida Console", monospace;
