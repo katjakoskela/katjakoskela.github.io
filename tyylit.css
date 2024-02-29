@@ -116,8 +116,5 @@ nav a:hover {
   }
   a {
     text-decoration: none;
-  }
-  .logo {
-    width: 100%;
-    height: 80px;
+    color: #3b5786;
   }
