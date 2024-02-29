@@ -1,6 +1,7 @@
 body {
     background-color: #fff1e0;
 }
+head
 h1 {
     font-family: "Copperplate", fantasy;
     color: #3b5786;
@@ -53,14 +54,6 @@ nav a:hover {
 a { /*cta*/
   background-color: #fff1e0;
   color: #3b5786;
-  border: 2px solid #3b5786; /* Green */
-  text-decoration: none;
-  font-family: "Lucida Console", monospace;
-  text-align: center;
-}
-a:hover {
-  background-color: #fff1e0;
-  color: #a3b3ca;
   border: 2px solid #3b5786; /* Green */
   text-decoration: none;
   font-family: "Lucida Console", monospace;
