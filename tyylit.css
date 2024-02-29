@@ -61,7 +61,10 @@ nav a:hover {
     border: 1px solid #3b5786;
     padding: 8px;
   }
-  #hinnat td:hover {
+  #hinnat tr:nth-child(even){
+    background-color: #3b5786;
+  }
+  #hinnat tr:hover {
     background-color: #a3b3ca;
   }
   #hinnat th {
