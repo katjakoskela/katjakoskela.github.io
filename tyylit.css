@@ -166,6 +166,10 @@ nav a:hover {
 }
 
 @media screen and (min-width: 1200px) { /*tietokone*/
+  .logo {
+    width: 40%;
+    height: auto;
+  }
   nav a {
     font-size: 20px;
     width: 150px;
