@@ -168,8 +168,9 @@ nav a:hover {
 @media screen and (min-width: 1200px) { /*tietokone*/
   nav a {
     font-size: 20px;
-    width: 120px;
+    width: 150px;
     height: 20px;
+    padding: 10px;
   }
   footer {
     flex-direction: row;
