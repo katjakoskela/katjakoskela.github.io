@@ -139,7 +139,11 @@ nav a:hover {
       padding: 7px;
       margin:3px 5px;
   }
+  p {
+    font-size: 10px;
+  }
     footer {
+      font-size: 10px;
       flex-direction: column;
       text-align: center;
     }
@@ -157,7 +161,11 @@ nav a:hover {
     padding: 7px;
     margin:3px 5px;
 }
+p {
+  font-size: 10px;
+}
   footer {
+    font-size: 10px;
     flex-direction: column;
     text-align: center;
   }
@@ -174,7 +182,11 @@ nav a:hover {
     height: 20px;
     padding: 10px;
   }
+  p {
+    font-size: 20px;
+  }
   footer {
+    font-size: 20px;
     flex-direction: row;
     text-align: left;
   }
