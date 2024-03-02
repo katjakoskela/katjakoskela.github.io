@@ -132,6 +132,12 @@ nav a:hover {
       flex-direction: column;
       text-align: center;
     }
+    nav a { 
+      width: 80px;
+      height: 15px;
+      padding: 7px;
+      margin:3px 5px;
+  }
   }
 
 @media screen and (min-width: 600px) { /*tablettikoko*/
@@ -139,6 +145,12 @@ nav a:hover {
     flex-direction: column;
     text-align: center;
   }
+  nav a { 
+    width: 80px;
+    height: 15px;
+    padding: 7px;
+    margin:3px 5px;
+}
 }
 
 @media screen and (min-width: 1200px) { /*tietokone*/
