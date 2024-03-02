@@ -110,7 +110,6 @@ nav a:hover {
     font-family: "Lucida Console", monospace;
     font-size: 10px;
     color: #3b5786;
-    text-decoration: none;
     background-color: #a3b3ca;
     display: flex;
     justify-content: space-around;
@@ -144,3 +143,10 @@ nav a:hover {
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1200px) { /*tietokone*/
+  footer {
+    flex-direction: row;
+    text-align: left;
+  }
+} 
