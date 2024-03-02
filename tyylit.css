@@ -133,6 +133,7 @@ nav a:hover {
       height: auto;
     }
     nav a { 
+      font-size: 10px;
       width: 80px;
       height: 15px;
       padding: 7px;
@@ -150,6 +151,7 @@ nav a:hover {
     height: auto;
   }
   nav a { 
+    font-size: 10px;
     width: 80px;
     height: 15px;
     padding: 7px;
@@ -162,6 +164,11 @@ nav a:hover {
 }
 
 @media screen and (min-width: 1200px) { /*tietokone*/
+  nav a {
+    font-size: 20px;
+    width: 120px;
+    height: 20px;
+  }
   footer {
     flex-direction: row;
     text-align: left;
