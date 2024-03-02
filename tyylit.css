@@ -75,6 +75,7 @@ nav a:hover {
   text-decoration: none;
   color: #3b5786;
   background-color: #fff1e0;
+  border: none;
   text-align: center;
   display: inline-block;
   padding: 15px 25px;
