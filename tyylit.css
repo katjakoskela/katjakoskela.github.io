@@ -133,7 +133,6 @@ nav a:hover {
       height: auto;
     }
     nav a { 
-      flex-direction: column;
       font-size: 10px;
       width: 80px;
       height: 15px;
@@ -152,7 +151,6 @@ nav a:hover {
     height: auto;
   }
   nav a { 
-    flex-direction: column;
     font-size: 10px;
     width: 80px;
     height: 15px;
