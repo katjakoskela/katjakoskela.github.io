@@ -130,3 +130,17 @@ nav a:hover {
     width: 40%;
 
   }
+
+  @media (max-width: 600px) { /*mobiilikoko*/
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+@media screen and (min-width: 600px) { /*tablettikoko*/
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
