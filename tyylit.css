@@ -6,6 +6,10 @@ body {
   font-family: otsikko;
   src: url(CastellarRegular.ttf);
 }
+header {
+  text-align: center;
+
+}
 h1 {
     font-family: otsikko, monospace;
     color: #3b5786;
@@ -117,4 +121,9 @@ nav a:hover {
   a {
     text-decoration: none;
     color: #3b5786;
+  }
+  .logo {
+    height: 40px;
+    width: 60%;
+
   }
