@@ -128,9 +128,9 @@ nav a:hover {
   }
 
   @media (max-width: 600px) { /*mobiilikoko*/
-    footer {
-      flex-direction: column;
-      text-align: center;
+    .logo {
+      width: 80%;
+      height: auto;
     }
     nav a { 
       width: 80px;
@@ -138,12 +138,16 @@ nav a:hover {
       padding: 7px;
       margin:3px 5px;
   }
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
   }
 
 @media screen and (min-width: 600px) { /*tablettikoko*/
-  footer {
-    flex-direction: column;
-    text-align: center;
+  .logo {
+    width: 80%;
+    height: auto;
   }
   nav a { 
     width: 80px;
@@ -151,6 +155,10 @@ nav a:hover {
     padding: 7px;
     margin:3px 5px;
 }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) { /*tietokone*/
