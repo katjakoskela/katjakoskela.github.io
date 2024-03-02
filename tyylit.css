@@ -125,7 +125,7 @@ nav a:hover {
   }
   .logo {
     margin: auto;
-    height: 40px;
-    width: 60%;
+    height: auto;
+    width: 40%;
 
   }
