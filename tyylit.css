@@ -59,7 +59,6 @@ nav a {
     background-color: #3b5786;
     text-align: center;
     display: inline-block; /*inline = vierekkäin, block = laatikko*/
-    border-style: outset;
     padding: 15px 25px;
 }
 nav a:hover {
