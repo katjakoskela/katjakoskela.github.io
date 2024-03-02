@@ -84,6 +84,7 @@ nav a:hover {
 #hinnat {
     font-family: "Lucida Console", monospace;
     border-collapse: collapse;
+    margin: auto;
     width: 80%;
   }
   
