@@ -2,13 +2,13 @@
 body {
     background-color: #fff1e0;
 }
-@font-face {
+@font-face { /*oman fontin linkitys*/
   font-family: otsikko;
   src: url(CastellarRegular.ttf);
 }
 header {
   text-align: center;
-
+  margin: auto;
 }
 h1 {
     font-family: otsikko, monospace;
@@ -127,6 +127,6 @@ nav a:hover {
   .logo {
     margin: auto;
     height: auto;
-    width: 40%;
+    width: 60%;
 
   }
