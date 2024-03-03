@@ -120,6 +120,10 @@ nav a:hover {
     margin-left: 0px;
     margin-bottom: 0px;
   }
+  .fa {
+    font-size: 60px;
+    color: #3b5786;
+  }
   .sähköposti {
     text-decoration: none;
     color: #3b5786;
@@ -151,6 +155,9 @@ nav a:hover {
       flex-direction: column;
       text-align: center;
     }
+    .fa {
+      font-size: 40px;
+    }
   }
 
 @media screen and (min-width: 600px) { /*tablettikoko*/
@@ -167,6 +174,9 @@ nav a:hover {
 }
 p {
   font-size: 10px;
+}
+.fa {
+  font-size: 40px;
 }
   footer {
     font-size: 10px;
@@ -188,6 +198,9 @@ p {
   }
   p {
     font-size: 20px;
+  }
+  .fa {
+    font-size: 60px;
   }
   footer {
     font-size: 20px;
