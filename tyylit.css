@@ -132,7 +132,10 @@ nav a:hover {
     margin: auto;
     height: auto;
     width: 40%;
-
+  }
+  figure {
+    margin: auto;
+    border: 10px #bf7e7e solid;
   }
 
   @media (max-width: 600px) { /*mobiilikoko*/
