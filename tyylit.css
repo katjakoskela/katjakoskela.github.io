@@ -124,7 +124,7 @@ nav a:hover {
     font-size: 60px;
     color: #3b5786;
   }
-  .sähköposti {
+  #sähköposti {
     text-decoration: none;
     color: #3b5786;
   }
@@ -208,7 +208,6 @@ p {
   footer {
     font-size: 20px;
     flex-direction: row;
-    text-align: left;
-    position: fixed;
+    text-align: center;
   }
 } 
