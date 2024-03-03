@@ -191,7 +191,7 @@ p {
 
 @media screen and (min-width: 1200px) { /*tietokone*/
   .logo {
-    width: 40%;
+    width: 60%;
     height: auto;
   }
   nav a {
