@@ -128,10 +128,6 @@ nav a:hover {
     text-decoration: none;
     color: #3b5786;
   }
-  figure {
-    margin: auto;
-    border: 8px #bf7e7e solid;
-  }
   .logo {
     border: none;
     margin: auto;
