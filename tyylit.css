@@ -128,7 +128,7 @@ nav a:hover {
     text-decoration: none;
     color: #3b5786;
   }
-  .logo {
+  #logo {
     border: none;
     margin: auto;
     height: auto;
