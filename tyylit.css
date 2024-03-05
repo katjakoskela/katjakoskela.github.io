@@ -134,6 +134,13 @@ nav a:hover {
     height: auto;
     width: 40%;
   }
+  figure {
+    padding: 5px 5px;
+    border: 6px solid #bf7e7e;
+    height: auto;
+    margin: auto;
+    max-width: 400px;
+  }
   @media (max-width: 600px) { /*mobiilikoko*/
     .logo {
       width: 80%;
