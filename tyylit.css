@@ -133,6 +133,14 @@ nav a:hover {
     height: auto;
     width: 40%;
   }
+  #kuva {
+    padding: 6px;
+    border: 6px solid #bf7e7e;
+    width: 20%;
+    height: auto;
+    margin: auto;
+  }
+
   @media (max-width: 600px) { /*mobiilikoko*/
     .logo {
       width: 80%;
