@@ -156,6 +156,9 @@ nav a:hover {
   p {
     font-size: 10px;
   }
+  #hinnat {
+    font-size: 10px;
+  }
     footer {
       font-size: 10px;
       flex-direction: column;
@@ -181,6 +184,9 @@ nav a:hover {
 p {
   font-size: 15px;
 }
+#hinnat {
+  font-size: 15px;
+}
 .fa {
   font-size: 50px;
 }
@@ -203,6 +209,9 @@ p {
     padding: 10px;
   }
   p {
+    font-size: 20px;
+  }
+  #hinnat {
     font-size: 20px;
   }
   .fa {
