@@ -128,10 +128,6 @@ nav a:hover {
     text-decoration: none;
     color: #3b5786;
   }
-  figure {
-    max-width: 400px;
-    max-height: 600px;
-  }
   #logo {
     margin: auto;
     height: auto;
