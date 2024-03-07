@@ -232,6 +232,12 @@ nav a:hover {
     'k'
     'kk';
   }
+  .yhteystiedot-asettelu {
+    grid-template-areas: 
+    'otsikko'
+    'sapo'
+    'puh';
+  }
   #hinnat {
     font-size: 10px;
   }
@@ -283,6 +289,12 @@ p {
   'ko ko'
   'kk k';
 }
+.yhteystiedot-asettelu {
+  grid-template-areas: 
+  'otsikko'
+  'sapo'
+  'puh';
+}
 #hinnat {
   font-size: 15px;
 }
@@ -329,6 +341,11 @@ p {
     'l l lk'
     'ko ko ko'
     'kk k k';
+  }
+  .yhteystiedot-asettelu {
+    grid-template-areas: 
+    'otsikko otsikko'
+    'sapo puh';
   }
   #hinnat {
     font-size: 20px;
