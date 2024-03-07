@@ -86,16 +86,20 @@ nav a:hover {
   gap: 20px;
   padding: 20px;
 }
+.raidat-otsikko { grid-area: ro;}
 .raidat1 { grid-area: r1; }
 .raidat1-kuva { grid-area: r1k; }
 .raidat2 { grid-area: r2; }
 .raidat2-kuva { grid-area: r2k; }
+.kokovari-otsikko {grid-area: kvo;}
 .kokovari1 { grid-area: kv1;}
 .kokovari1-kuva { grid-area: kv1k;}
 .kokovari2 { grid-area: kv2;}
 .kokovari2-kuva { grid-area: kv2k;}
+.leikkaukset-otsikko { grid-area: lo;}
 .leikkaukset { grid-area: l;}
 .leikkukaset-kuva { grid-area: lk;}
+.kampaukset-otsikko { grid-area: ko;}
 .kampaukset { grid-area: k;}
 .kampaukset-kuvat { grid-area: kk;}
 
@@ -232,11 +236,15 @@ p {
   }
   .palvelut-sisalto {
     grid-template-areas:
+    'ro ro ro'
     'r1 r1 r1k'
     'r2k r2 r2'
+    'kvo kvo kvo'
     'kv1 kv1 kv1k'
     'kv2k kv2 kv2'
+    'lo lo lo'
     'l l lk'
+    'ko ko ko'
     'kk k k';
   }
   #hinnat {
