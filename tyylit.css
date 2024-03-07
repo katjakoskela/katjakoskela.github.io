@@ -117,6 +117,16 @@ nav a:hover {
 .kampaukset { grid-area: k;}
 .kampaukset-kuvat { grid-area: kk;}
 
+/*yhteystiedot-sivun asetelu*/
+.yhteystiedot-asettelu {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+.otsikko {grid-area: otsikko;}
+.sahkoposti {grid-area: sapo;}
+.puhelinnumero {grid-area: puh;}
+
 /*Hinnasto listana*/
 #hinnat {
     font-family: "Lucida Console", monospace;
