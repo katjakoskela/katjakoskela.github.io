@@ -230,7 +230,7 @@ p {
   p {
     font-size: 20px;
   }
-  .palvelut-sisalto {
+  #palvelut-asettelu {
     grid-template-areas:
     'r1 r1 r1k'
     'r2k r2 r2'
