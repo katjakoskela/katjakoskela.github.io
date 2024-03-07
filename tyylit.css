@@ -80,11 +80,25 @@ nav a:hover {
   display: inline-block;
   padding: 15px 25px;
 }
+/*etusivun sisällön asettelu*/
+.etusivu-sisalto {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+.iskulause {grid-area: il;}
+.esimaku-kuva1 {grid-area: ek1;}
+.esimaku-kuva2 {grid-area: ek2;}
+.esimaku-kuva3 {grid-area: ek3;}
+.esimakua {grid-area: ek;}
+.oma-esittely {grid-area: oe;}
+.oma-kuva {grid-area: ok;}
+
 /*palvelut-sivun sisällön asettelu*/
 .palvelut-sisalto {
   display: grid;
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
 }
 .raidat-otsikko { grid-area: ro;}
 .raidat1 { grid-area: r1; }
