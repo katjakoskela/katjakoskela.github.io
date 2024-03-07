@@ -125,7 +125,7 @@ nav a:hover {
 }
 .otsikko {grid-area: otsikko;}
 .sahkoposti {grid-area: sapo;}
-.puhelinnumero {grid-area: puh;}
+.puhelinnumero {grid-area: puh;}
 
 /*Hinnasto listana*/
 #hinnat {
