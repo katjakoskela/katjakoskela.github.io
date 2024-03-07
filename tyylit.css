@@ -206,8 +206,17 @@ nav a:hover {
       padding: 7px;
       margin:3px 5px;
   }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 17px;
+  }
   p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .etusivu-sisalto {
     grid-template-areas:
@@ -245,10 +254,10 @@ nav a:hover {
     'puh';
   }
   #hinnat {
-    font-size: 10px;
+    font-size: 12px;
   }
     footer {
-      font-size: 10px;
+      font-size: 12px;
       flex-direction: column;
       text-align: center;
     }
@@ -268,11 +277,20 @@ nav a:hover {
     height: 15px;
     padding: 7px;
     margin:3px 5px;
-}
-p {
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
   font-size: 15px;
-}
-.etusivu-sisalto {
+  }
+  .etusivu-sisalto {
   grid-template-areas:
   'il'
   'ek1'
@@ -281,8 +299,8 @@ p {
   'ek'
   'oe'
   'ok';
-}
-.palvelut-sisalto {
+  }
+  .palvelut-sisalto {
   grid-template-areas:
   'ro ro'
   'r1 r1k'
@@ -294,8 +312,8 @@ p {
   'l lk'
   'ko ko'
   'kk k';
-}
-.yhteystiedot-asettelu {
+  }
+  .yhteystiedot-asettelu {
   grid-template-areas: 
   'otsikko'
   'sapo'
@@ -324,6 +342,15 @@ p {
     width: 150px;
     height: 20px;
     padding: 10px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
   }
   p {
     font-size: 20px;
