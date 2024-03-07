@@ -80,6 +80,25 @@ nav a:hover {
   display: inline-block;
   padding: 15px 25px;
 }
+/*palvelut-sivun sisällön asettelu*/
+.palvelut-sisalto {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+.raidat1 { grid-area: r1; }
+.raidat1-kuva { grid-area: r1k; }
+.raidat2 { grid-area: r2; }
+.raidat2-kuva { grid-area: r2k; }
+.kokovari1 { grid-area: kv1;}
+.kokovari1-kuva { grid-area: kv1k;}
+.kokovari2 { grid-area: kv2;}
+.kokovari2-kuva { grid-area: kv2k;}
+.leikkaukset { grid-area: l;}
+.leikkukaset-kuva { grid-area: lk;}
+.kampaukset { grid-area: k;}
+.kampaukset-kuvat { grid-area: kk;}
+
 /*Hinnasto listana*/
 #hinnat {
     font-family: "Lucida Console", monospace;
@@ -210,6 +229,15 @@ p {
   }
   p {
     font-size: 20px;
+  }
+  .palvelut-sisalto {
+    grid-template-areas:
+    'r1 r1 r1k'
+    'r2k r2 r2'
+    'kv1 kv1 kv1k'
+    'kv2k kv2 kv2'
+    'l l lk'
+    'kk k k';
   }
   #hinnat {
     font-size: 20px;
