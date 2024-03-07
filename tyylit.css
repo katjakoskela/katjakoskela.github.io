@@ -193,6 +193,16 @@ nav a:hover {
   p {
     font-size: 10px;
   }
+  .etusivu-sisalto {
+    grid-template-areas:
+    'il'
+    'ek1'
+    'ek2'
+    'ek3'
+    'ek'
+    'oe'
+    'ok';
+  }
   .palvelut-sisalto {
     grid-template-areas:
     'ro'
@@ -240,6 +250,16 @@ nav a:hover {
 p {
   font-size: 15px;
 }
+.etusivu-sisalto {
+  grid-template-areas:
+  'il'
+  'ek1'
+  'ek2'
+  'ek3'
+  'ek'
+  'oe'
+  'ok';
+}
 .palvelut-sisalto {
   grid-template-areas:
   'ro ro'
@@ -279,6 +299,14 @@ p {
   }
   p {
     font-size: 20px;
+  }
+  .etusivu-sisalto {
+    grid-template-areas:
+    'il il il'
+    'ek1 ek2 ek3'
+    'ek ek ek'
+    'oe oe oe'
+    'ok ok ok';
   }
   .palvelut-sisalto {
     grid-template-areas:
