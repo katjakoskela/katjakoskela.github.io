@@ -99,7 +99,7 @@ nav a:hover {
 .leikkaukset-otsikko { grid-area: lo;}
 .leikkaukset { grid-area: l;}
 .leikkukaset-kuva { grid-area: lk;}
-.kampaukset-otsikko { grid-area: ko;}
+.kampaukset-otsikko { grid-area: ko;}
 .kampaukset { grid-area: k;}
 .kampaukset-kuvat { grid-area: kk;}
 
