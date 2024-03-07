@@ -179,6 +179,25 @@ nav a:hover {
   p {
     font-size: 10px;
   }
+  .palvelut-sisalto {
+    grid-template-areas:
+    'ro'
+    'r1'
+    'r1k'
+    'r2k'
+    'r2'
+    'kvo'
+    'kv1'
+    'kv1k'
+    'kv2k'
+    'kv2'
+    'lo'
+    'l'
+    'lk'
+    'ko'
+    'kk'
+    'k';
+  }
   #hinnat {
     font-size: 10px;
   }
@@ -206,6 +225,19 @@ nav a:hover {
 }
 p {
   font-size: 15px;
+}
+.palvelut-sisalto {
+  grid-template-areas:
+  'ro ro'
+  'r1 r1k'
+  'r2k r2'
+  'kvo kvo'
+  'kv1 kv1k'
+  'kv2k kv2'
+  'lo lo'
+  'l lk'
+  'ko ko'
+  'kk k';
 }
 #hinnat {
   font-size: 15px;
