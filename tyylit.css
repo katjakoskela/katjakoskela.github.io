@@ -305,13 +305,18 @@ nav a:hover {
   p {
   font-size: 15px;
   }
-  .etusivu-sisalto {
+  .esimaku-sisalto {
   grid-template-areas:
   'il'
   'ek1'
   'ek2'
   'ek3'
   'ek';
+  }
+  .esittely-sisalto {
+    grid-template-areas:
+    'oe'
+    'ok';
   }
   .palvelut-sisalto {
   grid-template-areas:
@@ -368,11 +373,16 @@ nav a:hover {
   p {
     font-size: 20px;
   }
-  .etusivu-sisalto {
+  .esimaku-sisalto {
     grid-template-areas:
     'il il il'
     'ek1 ek2 ek3'
     'ek ek ek';
+  }
+  .esittely-sisalto {
+    grid-template-areas:
+    'oe'
+    'ok';
   }
   .palvelut-sisalto {
     grid-template-areas:
