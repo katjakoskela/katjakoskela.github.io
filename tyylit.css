@@ -173,6 +173,7 @@ nav a:hover {
     margin-left: 0px;
     margin-bottom: 0px;
   }
+  /*somelinkin ja sähöpostilinkin muotoilu*/
   .fa {
     font-size: 60px;
     color: #3b5786;
@@ -181,15 +182,18 @@ nav a:hover {
     text-decoration: none;
     color: #3b5786;
   }
+  /*kuvien määrittelyä*/
   .logo {
     margin: auto;
     height: auto;
+    max-width: 600px;
     width: 40%;
   }
   .kuva {
     padding: 1px;
     border: 3px solid #bf7e7e;
-    width: 80%;
+    max-width: 400px;
+    width: 100%;
     height: auto;
     margin: auto;
   }
