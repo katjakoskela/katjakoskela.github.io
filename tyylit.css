@@ -191,10 +191,6 @@ nav a:hover {
     color: #3b5786;
   }
   /*kuvien määrittelyä*/
-  figure {
-    max-width: 800px;
-    max-height: 1000px;
-  }
   .logo {
     margin: auto;
     height: auto;
