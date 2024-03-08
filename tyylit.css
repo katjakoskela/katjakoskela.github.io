@@ -181,12 +181,12 @@ nav a:hover {
     text-decoration: none;
     color: #3b5786;
   }
-  #logo {
+  .logo {
     margin: auto;
     height: auto;
     width: 40%;
   }
-  #kuva {
+  .kuva {
     padding: 6px;
     border: 6px solid #bf7e7e;
     width: 20%;
