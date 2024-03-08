@@ -192,8 +192,8 @@ nav a:hover {
   }
   /*kuvien määrittelyä*/
   figure {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 800px;
+    max-height: 1000px;
   }
   .logo {
     margin: auto;
