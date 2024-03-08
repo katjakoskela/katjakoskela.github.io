@@ -354,6 +354,7 @@ nav a:hover {
   .logo {
     width: 60%;
     height: auto;
+    margin: auto;
   }
   nav a {
     font-size: 20px;
