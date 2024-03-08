@@ -87,7 +87,7 @@ nav a:hover {
   padding: 15px 25px;
 }
 /*etusivun sisällön asettelu*/
-.etusivu-sisalto {
+.esimaku-sisalto { /*ensimmäinen osa*/
   display: grid;
   gap: 10px;
   padding: 10px;
@@ -97,6 +97,14 @@ nav a:hover {
 .esimaku-kuva2 {grid-area: ek2;}
 .esimaku-kuva3 {grid-area: ek3;}
 .esimakua {grid-area: ek;}
+.oma-esittely {grid-area: oe;}
+.oma-kuva {grid-area: ok;}
+
+.esittely-sisalto { /*toinen osa*/
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
 .oma-esittely {grid-area: oe;}
 .oma-kuva {grid-area: ok;}
 
@@ -222,13 +230,16 @@ nav a:hover {
   p {
     font-size: 12px;
   }
-  .etusivu-sisalto {
+  .esimaku-sisalto {
     grid-template-areas:
     'il'
     'ek1'
     'ek2'
     'ek3'
-    'ek'
+    'ek';
+  }
+  .esittely-sisalto {
+    grid-template-areas: 
     'oe'
     'ok';
   }
@@ -300,9 +311,7 @@ nav a:hover {
   'ek1'
   'ek2'
   'ek3'
-  'ek'
-  'oe'
-  'ok';
+  'ek';
   }
   .palvelut-sisalto {
   grid-template-areas:
@@ -363,9 +372,7 @@ nav a:hover {
     grid-template-areas:
     'il il il'
     'ek1 ek2 ek3'
-    'ek ek ek'
-    'oe oe oe'
-    'ok';
+    'ek ek ek';
   }
   .palvelut-sisalto {
     grid-template-areas:
