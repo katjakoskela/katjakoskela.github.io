@@ -381,7 +381,7 @@ nav a:hover {
   }
   .esittely-sisalto {
     grid-template-areas:
-    'oe ok';
+    'oe oe ok';
   }
   .palvelut-sisalto {
     grid-template-areas:
